@@ -3,10 +3,10 @@
 // Configuration for ERC Archive
 // This should be named erc-archive.php
 
-// Paths
+// Paths - have trailing slash
 
 define('APPROOT',  '/var/www/');
-define('DATAROOT', '/var/www/data');
+define('DATAROOT', '/var/www/data/');
 
 // Database
 
@@ -15,3 +15,7 @@ define('APP_DBUSER', 'dbuser');
 define('APP_DBPASS', 'dbpass');
 define('APP_DBNAME', 'dbname');
 
+// URLs
+
+define('WEBHOSTNAME', 'erc-archive.lightni.ng');
+define('WEBPROTOCOL', 'https');

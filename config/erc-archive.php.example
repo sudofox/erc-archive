@@ -1,0 +1,17 @@
+<?php
+
+// Configuration for ERC Archive
+// This should be named erc-archive.php
+
+// Paths
+
+define('APPROOT',  '/var/www/');
+define('DATAROOT', '/var/www/data');
+
+// Database
+
+define('APP_DBHOST', 'dbhost');
+define('APP_DBUSER', 'dbuser');
+define('APP_DBPASS', 'dbpass');
+define('APP_DBNAME', 'dbname');
+
